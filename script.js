@@ -84,7 +84,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Xvannn";
+            document.title = "Portfolio | nuha";
             $("#favicon").attr("href", "assets/images/vanitas.png");
         }
         else {
