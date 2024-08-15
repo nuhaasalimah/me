@@ -85,11 +85,10 @@ document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
             document.title = "Portfolio | nuha";
-            $("#favicon").attr("href", "assets/images/vanitas.png");
+            
         }
         else {
             document.title = "Come Back To Portfolio";
-            $("#favicon").attr("href", "assets/images/vanitas.png");
         }
     });
 
